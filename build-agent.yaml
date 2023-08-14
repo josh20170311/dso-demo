@@ -37,7 +37,7 @@ spec:
         - 99d
       volumeMounts:
         - name: jenkins-docker-cfg
-          mountPath: /kaniko/.docker        -
+          mountPath: /kaniko/.docker
     - name: licensefinder
       image: licensefinder/license_finder
       command:
